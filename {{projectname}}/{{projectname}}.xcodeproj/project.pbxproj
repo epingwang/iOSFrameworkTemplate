@@ -157,7 +157,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "FRAMEWORK_PATH=\"${TARGET_BUILD_DIR}/${FULL_PRODUCT_NAME}\"\n# FRAMEWORK_PATH=\"hello\"\necho $FRAMEWORK_PATH\ncp -r $FRAMEWORK_PATH \"${PROJECT_DIR}/../${PROJECT}Demo/\"\ncp -r \"${FRAMEWORK_PATH}/${PROJECT}.bundle\" \"${PROJECT_DIR}/../${PROJECT}Demo/\"";
+			shellScript = "FRAMEWORK_PATH=\"${TARGET_BUILD_DIR}/${FULL_PRODUCT_NAME}\"\necho $FRAMEWORK_PATH\ncp -r $FRAMEWORK_PATH \"${PROJECT_DIR}/../${PROJECT}Demo/\"\ncp -r \"${FRAMEWORK_PATH}/${PROJECT}.bundle\" \"${PROJECT_DIR}/../${PROJECT}Demo/\"";
 		};
 /* End PBXShellScriptBuildPhase section */
 
